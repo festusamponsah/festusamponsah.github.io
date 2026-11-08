@@ -21,7 +21,21 @@
     border:6px solid white;
     box-shadow:0 10px 30px rgba(0,0,0,0.2);
 }
-* {
+.hero-content{
+    display:inline-block;
+    padding:20px 40px;
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(8px);
+    border-radius:20px;
+}
+html{
+    scroll-behavior:smooth;
+}   
+header{
+    transition:all 0.5s ease;
+}
+ 
+    {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -98,6 +112,20 @@ nav a {
     background: #f8fafc;
     margin-top: 15px;
 }
+.github-btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 24px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:600;
+}
+
+.github-btn:hover{
+    background:#1d4ed8;
+}
 
 footer {
     text-align: center;
@@ -133,9 +161,16 @@ footer {
     <a href="#">Projects</a>
     <a href="#">About</a>
     <a href="#">Contact</a>
+    <a href="https://github.com/festusamponsah"
+   class="github-btn">
+   View My GitHub
+</a>
 </nav>
 
-<div class="container">
+<div class="hero-content">
+    <h1>Festus Amponsah</h1>
+    <p>Personal Blog • Technology • Education • Life Journey</p>
+</div>"container">
 
     <div class="card">
         <h2>Welcome</h2>
